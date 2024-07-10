@@ -17,6 +17,7 @@ body{
     margin: 0 auto;
     min-height: 652px;
     margin-top: 131px;
+    margin-bottom: 74px;
     border: 2px solid red;
     background-image: url(assets/Hero-bg.png);
     background-position: cover;
@@ -33,5 +34,49 @@ body{
 .image-container{
     width: 240.28px;
     height: 240px;
-    margin: 26px;
+    margin-top: 26px;
+    margin-bottom: 32px;
 }
+
+.text-container h1{
+    width: 998px;
+    height: 136px;
+    margin-left: 221px;
+    margin-right: 221px;
+    align-items: center;
+    color: rgb(13, 19, 33);
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 68px;
+    text-align: center;
+}
+
+.text-container p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 73px;
+    margin-right: 73px;
+    margin-bottom: 32px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.contact-button{
+    width: 208px;
+    height: 66px;
+    align-items: center;
+    text-align: center;
+}
+
+/* main section start here */
+
+.main-content{
+    max-width: 1140px;
+    min-height: 1395px;
+    margin: 0 auto;
+    border: 2px solid red;
+    background-position: cover;
+    background-size: cover;
+}
+
