@@ -242,6 +242,165 @@ text-align: center;
     margin-bottom: 32px;
 }
 
+.last-content{
+    width: 852px;
+    height: 113px;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 48px;
+    border: 2px solid red;
+}
+
+.last-content h2{
+    width: 852px;
+    height: 37px;
+    margin-bottom: 24px;
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    align-items: center;
+}
+
+.last-content p{
+    width: 852px;
+    height: 52px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    min-height: 100vh;
+}
+
+.video-container{
+    width: 1076px;
+    height: 550px;
+    margin-top: 32px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    border: 2px solid red;
+}
+
+.current-target{
+    max-width: 1140px;
+    min-height: 460px;
+    margin-top: 151px;
+    margin: 0 auto;
+    align-items: center;
+    border: 2px solid red;
+}
+
+.target-text{
+    max-width: 946px;
+    min-height: 113px;
+    margin-left: 97px;
+    margin-right: 97px;
+    margin-bottom: 47px;
+    
+    border: 2px solid red;
+}
+
+.target-text h3{
+    width: 852px;
+    height: 37px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.target-text p{
+    width: 852px;
+    height: 52px;
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+    text-align: center;
+}
+
+.skill-container{
+    display: flex;
+    gap: 24px;
+}
+
+.skill{
+    width: 364px;
+    height: 299px;
+    padding: 40px;
+    border-radius: 5px;
+    
+}
+
+.skill-bga{
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.skill-bgb{
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.skill-bgc{
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.text-arrangement{
+    width: 284px;
+height: 219px;
+align-items: flex-start;
+}
+
+.img-position{
+    width: 56px;
+height: 56px;
+margin: 24px 0px;
+}
+
+.heading-arrangement{
+    width: 284px;
+height: 36px;
+margin-bottom: 8px;
+color: rgb(13, 19, 33);
+font-size: 24px;
+font-weight: 800;
+line-height: 36px;
+text-align: left;
+}
+
+.skill-description{
+    width: 284px;
+height: 52px;
+margin-bottom: 24px;
+color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+text-align: left;
+}
+
+.link-click{
+    width: 284px;
+height: 19px;
+color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+text-align: left;
+text-decoration-line: underline;
+}
+
+
+
+
+
+
 
 
 
