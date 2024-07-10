@@ -396,8 +396,79 @@ text-align: left;
 text-decoration-line: underline;
 }
 
+/* footer section styling */
+
+.footer-start{
+    width: 1140px;
+    height: 313px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background-image: url(assets/handshake.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 2px solid red;
+    margin-top: 49px;
+}
+
+.footer-info-container{
+    width: 1044px;
+    height: 185px;
+    margin: 64px 48px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-info-container h2{
+    width: 292px;
+    height: 36px;
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.footer-info-container p{
+    width: 606px;
+    height: 52px;
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+    margin-bottom: 24px;
+font-size: 13px;
+font-weight: 400;
+}
 
 
+.feedback-input {
+    width: 548px;
+    height: 57px;
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+background: rgb(255, 255, 255);
+}
+
+.feedback-input::placeholder {
+    color: rgba(13, 19, 33, 0.4);
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+
+  }
+
+.feedback-button {
+    width: 120px;
+    height: 57px;
+    border-radius: 8px;
+background: rgb(255, 255, 255);
+color: rgb(13, 19, 33);
+font-size: 20px;
+font-weight: 600;
+text-align: center;
+
+}
 
 
 
