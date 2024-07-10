@@ -88,6 +88,11 @@ html, body {
 
 /* main section start here */
 
+.content-button a {
+    color: inherit;
+    text-decoration: none;
+  }
+
 .content-button{
     width: 150px;
     height: 48px;
@@ -197,7 +202,7 @@ html, body {
     display: flex;
 }
 
-.thrit-div-picture{
+.third-div-picture{
     width: 223.2px;
     height: 208.85px;
     margin-bottom: 31.5px;
@@ -261,6 +266,7 @@ html, body {
     align-items: center;
     margin: 0 auto;
     margin-top: 48px;
+    margin-bottom: 55px;
 }
 
 .last-content h2{
@@ -288,24 +294,23 @@ html, body {
 
 .container {
     width: 1140px;
-    height: 600px;
+    height: 614px;
     margin: 0 auto;
-    box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
     display: flex;
     justify-content: center;
     align-items: center; 
     margin-bottom: 151px;
-    border-top: 48px;
 }
 
-.video-container{
+ .video-container{
     width: 1076px;
     height: 550px;
-    margin-top: 32px;
     box-sizing: border-box;
-    border: 1px solid rgba(13, 19, 33, 0.2);
+} 
+
+.video-container iframe{
     border-radius: 16px;
 }
 
@@ -325,7 +330,8 @@ html, body {
     margin-bottom: 47px;
 }
 
-.target-text h3{
+.target-text h2{
+    color: rgb(13, 19, 33);
     width: 852px;
     height: 37px;
     margin-bottom: 24px;
@@ -370,8 +376,8 @@ html, body {
 
 .text-arrangement{
     width: 284px;
-height: 219px;
-align-items: flex-start;
+    height: 219px;
+    align-items: flex-start;
 }
 
 .img-position{
@@ -382,35 +388,33 @@ margin: 24px 0px;
 
 .heading-arrangement{
     width: 284px;
-height: 36px;
-margin-bottom: 8px;
-color: rgb(13, 19, 33);
-font-size: 24px;
-font-weight: 800;
-line-height: 36px;
-text-align: left;
+    height: 36px;
+    margin-bottom: 8px;
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    text-align: left;
 }
 
 .skill-description{
     width: 284px;
-height: 52px;
-margin-bottom: 24px;
-color: rgb(13, 19, 33);
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-text-align: left;
+    height: 52px;
+    margin-bottom: 24px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
 }
 
 .link-click{
     width: 284px;
-height: 19px;
-color: rgb(13, 19, 33);
-font-size: 16px;
-font-weight: 700;
-line-height: 19px;
-text-align: left;
-text-decoration-line: underline;
+    height: 19px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: left;
+    text-decoration-line: underline;
 }
 
 /* footer section styling */
@@ -426,7 +430,7 @@ text-decoration-line: underline;
     background-position: center;
     margin-top: 49px;
     margin-bottom: 50px;
-    background-blend-mode: darken;
+    background-blend-mode: overlay;
 }
 
 .footer-info-container{
@@ -446,6 +450,7 @@ text-decoration-line: underline;
     font-size: 32px;
     font-weight: 700;
     margin-bottom: 16px;
+    margin-top: 64px;
 }
 
 .footer-info-container p{
@@ -454,26 +459,27 @@ text-decoration-line: underline;
     color: rgb(255, 255, 255);
     opacity: 0.7;
     margin-bottom: 24px;
-font-size: 13px;
-font-weight: 400;
+    font-size: 13px;
+    font-weight: 400;
 }
 
 
 .feedback-input {
     width: 548px;
     height: 57px;
+    margin-top: 24px;
     box-sizing: border-box;
-border: 1px solid rgba(13, 19, 33, 0.15);
-border-radius: 8px;
-background: rgb(255, 255, 255);
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
 }
 
 .feedback-input::placeholder {
     color: rgba(13, 19, 33, 0.4);
-font-size: 16px;
-font-weight: 400;
-line-height: 19px;
-padding-left: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    padding-left: 15px;
   }
 
 .feedback-button {
@@ -489,9 +495,9 @@ padding-left: 15px;
 
 .open-commitment{
     width: 1140px;
-    height: 36px;
+    height: 46px;
     margin: 0 auto;
-    margin-bottom: 50px;
+    margin-bottom: 200px;
     display: flex;
     justify-content: space-between;
 }
@@ -504,6 +510,7 @@ padding-left: 15px;
     font-size: 15px;
     font-weight: 600;
 }
+
 
 
 
